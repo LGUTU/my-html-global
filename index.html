@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+  </style>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+  <div id="wrap">
+  <header>
+    <div>
+      <h1><a href="#"><img src="./images/logo.png" alt=""></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#wrap">Sologon</a></li>
+          <li><a href="#box02">Info</a></li>
+          <li><a href="#box03">Contact</a></li>
+        </ul>
+        <p class="close">
+          <span></span>
+          <span></span>
+        </p>
+      </nav>
+    </div>
+    <p class="btn">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </p>
+  </header>
+  <article id="box01">
+    <div>
+      <h3>Introduce Ahn Jun Mo</h3>
+      <dl>
+        <dt>나를 소개합니다</dt>
+        <dd></dd>
+      </dl>
+      <ul>
+        <li>
+          <span></span>
+          <dl>
+            <dt>My Ability</dt>
+            <dd></dd>          
+          </dl>
+        </li>
+        <li>
+          <span></span>
+          <dl>
+            <dt>Design</dt>
+            <dd></dd>         
+          </dl>
+        </li>
+        <li>
+         <span></span>
+          <dl>
+            <dt>Coding</dt>         
+            <dd></dd>          
+          </dl>
+        </li>
+        <li>
+          <span></span>
+          <dl>
+            <dt>Site</dt>
+            <dd></dd>
+          </dl>
+        </li>
+        <li>
+          <img src="./images/site-img18.jpg" alt="">
+        </li>
+      </ul>
+    </div>
+  </article>
+  <article id="box02">
+    <div>
+      <h3>Profile</h3>
+      <section class="info">
+        <h4>Info</h4>
+        <ul>
+          <li>
+            <dfn>Name</dfn>
+            <span>Ahn Jun Mo</span>
+          </li>
+          <li>
+            <dfn>Birth</dfn>
+            <span>1995.12.23</span>
+          </li>
+          <li>
+            <dfn>Residence</dfn>
+            <span>Seoul Korea</span>
+          </li>
+          <li>
+            <dfn>Major</dfn>
+            <span>Web Design / Publishing <br>
+              Html, CSS,
+              <br>Javascript, jQuery</span>
+          </li>
+          <li>
+            <dfn>Hobby</dfn>
+            <span>Exercise, Baseball</span>
+          </li>
+        </ul>
+      </section>
+      <section class="skill">
+        <h4>Skills</h4>
+        <ul>
+          <li>
+            <dfn>Photoshop</dfn>
+            <span>50%</span>
+          </li>
+          <li>
+            <dfn>Html</dfn>
+            <span>60%</span>
+          </li>
+          <li>
+            <dfn>Javascript</dfn>
+            <span>95%</span>
+          </li>
+          <li>
+            <dfn>vue</dfn>
+            <span>65%</span>
+          </li>
+          <li>
+            <dfn>react</dfn>
+            <span>80%</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </article>
+  <article id="box03">
+    <h3>PortFolio</h3>
+    <ul>
+      <li><a href="#">tabmenu01</a></li>
+      <li><a href="#">tabmenu02</a></li>
+      <li><a href="#">tabmenu03</a></li>
+    </ul>
+    <div id="gallery">
+      <div id="show">
+        <div id="all">
+          <figure>
+            <img src="./images/site-img205.jpg" alt="Task01">
+            <figcaption>Task01</figcaption>
+          </figure>
+          <figure>
+            <img src="./images/site-img205.jpg" alt="Task02">
+            <figcaption>Task02</figcaption>
+          </figure>
+          <figure>
+            <img src="./images/site-img205.jpg" alt="Task03">
+            <figcaption>Task03</figcaption>
+          </figure>
+          <figure>
+            <img src="./images/site-img205.jpg" alt="Task04">
+            <figcaption>Task04</figcaption>
+          </figure>
+          <figure>
+            <img src="./images/site-img205.jpg" alt="Task05">
+            <figcaption>Task05</figcaption>
+          </figure>
+          <figure>
+            <img src="./images/site-img205.jpg" alt="Task06">
+            <figcaption>Task06</figcaption>
+          </figure>
+        </div>
+        <p class="prev"></p>
+        <p class="next"></p>
+      </div>
+      <div id="modal">
+        <p class="close"></p>
+        <section>
+          <h4>My Skill</h4>
+          <div>
+          <figure>
+            <img src="./images/site-img118.png">
+            <figcaption>work01</figcaption>
+          </figure>
+          <dl>
+            <dt>Production year</dt>
+            <dd>2022.12.05 ~ 2022.01.04</dd>
+            <dt>Use Program</dt>
+            <dd>Visual Studio Code</dd>
+            <dt>Address</dt>
+            <dd><a href="#">http://localhost:1234</a></dd>
+            <dt>Description</dt>
+            <dd></dd>
+          </dl>
+          </div>
+        </section>
+      </div>
+    </div>
+  </article>
+  <article id="box04">
+    <div>
+      <h3>Contact</h3>
+      <form action="#" method="post">
+        <fieldset>
+          <legend class="hide">contact</legend>
+          <ul>
+            <li>
+              <label for="userName">Name</label>
+              <input type="text" id="userName" placeholder="Name">
+            </li>
+            <li>
+              <label for=""></label>
+              <input type="text" id="" placeholder="">
+            </li>
+            <li>
+              <label for=""></label>
+              <input type="text" id="" placeholder="">
+            </li>
+            <li>
+              <label for=""></label>
+              <input type="text" id="" placeholder="">
+            </li>
+          </ul>
+          <p><input type="submit" value="submit"></p>
+        </fieldset>
+      </form>
+    </div>
+  </article>
+  <aside id="submenu">
+    <h4 class="hide">SubMenu</h4>
+    <ul>
+      <li><a href="#wrap">Sologon</a></li>
+      <li><a href="#box02">Info</a></li>
+      <li><a href="#box03">Gallery</a></li>
+      <li><a href="#box04">Contact</a></li>
+    </ul>
+  </aside>
+  <aside id="top">Top</aside>
+  <footer>
+    <small>
+      coptyright &copy; 2022 My Portfolio by work all 
+      right reversed.
+    </small>
+  </footer>
+  </div>
+</body>
+</html>
